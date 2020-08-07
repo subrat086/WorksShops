@@ -18,8 +18,7 @@ public class SelectTest1
 		 //Class.forName("oracle.jdbc.driver.OracleDriver");
 
 		 //establish the connection
-		 Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe",
-			                                                                                               "system","manager");
+		 Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","manager");
 		 //create Statement object
 		 Statement st=con.createStatement();
 
